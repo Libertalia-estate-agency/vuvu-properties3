@@ -7,15 +7,15 @@ const HeaderTopInfo = function () {
       <div className="ltn__top-bar-menu">
         <ul>
           <li>
-            <Link href="mailto:info@webmail.com">
+            <Link href="mailto:info@vuvuproperties.co.za">
               <FaEnvelope />
-              <i></i> info@webmail.com
+              <i></i> info@vuvuproperties.co.za
             </Link>
           </li>
           <li>
             <Link href="/locations">
               <FaMapMarkerAlt />
-              15/A, Nest Tower, NYC
+              7 Quail Close Meyersdal Eco Estate, 1448
             </Link>
           </li>
         </ul>

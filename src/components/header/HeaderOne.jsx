@@ -100,9 +100,18 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
             <Row>
               <Col>
                 <div className="site-logo-wrap">
+                  <div className="tp-logo">
+                    <Link href="/" className="logo">
+                      <div className="logo-container d-flex align-items-center">
+                        <img src="/img/favicon.png" alt="Logo" />
+                        <span className="company-name">Vuvu Properties</span>
+                      </div>
+                    </Link>
+                  </div>
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      <img src="/img/favicon.png" alt="Logo" />
+                      <span className="company-name">Vuvu Properties</span>
                     </Link>
                   </div>
                 </div>

@@ -57,6 +57,7 @@ function HomePage(props) {
       <FaArrowRight />
     </button>
   );
+  
   const productCarouselsettings = {
     dots: true,
     infinite: true,
